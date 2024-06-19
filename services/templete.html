@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon-->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!--link --->
+
+  <link rel="stylesheet" href="../css/style.css">
+  <!--- title -->
+
+  <title>Movies</title>
+</head>
+
+<body class="night-mode">
+  <div class="container">
+    <!---header --->
+
+    <header>
+      <div class="header-container uni-padding">
+        <nav class="">
+          <a href="index.html"><img src="../image/logo.png" alt="logo" id="web-logo"></a>
+          <a href="index.html">
+            <h1 id="web-head-01">Movies</h1>
+          </a>
+        </nav>
+      </div>
+      <!---menu--->
+
+      <div class="option uni-padding">
+        <div class="d-link">
+          <div class="option-1">
+            <ul>
+              <li style="background: #44aaf3;"><i class="fa-brands fa-telegram"></i><a
+                  href="https://t.me/az94movie">JOIN TELEGRAM</a></li>
+              <li><a href="#">DUAL AUDIO</a></li>
+              <li><a href="#">WeB Series</a></li>
+            </ul>
+          </div>
+          <div class="option-2">
+            <ul>
+              <li><a href="#">720p Movies<a></li>
+              <li><a href="#">1080 Movies<a></li>
+              <li style=" background: #f99d14;"><i class="fa-solid fa-image"></i><a href="#">4K Movies<a></li>
+              <li>Action</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!---boundary------>
+
+      <div class="bound">
+        <div class="bound-height" style="background-color:#ada6a6;">
+          <form class="search-form" action="index.html" method="post">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input class="search-input" type="text" name="" value="" placeholder="Search here..!" onkeyup="searchFun()"
+              id="find" autocomplete="off" spellcheck="false">
+            <button class="search-button" type="button" name="button">search</button>
+          </form>
+          <h3 class=" uni-padding">Hi, Latest Movies here !</h3>
+        </div>
+      </div>
+    </header>
+    <!--- main contain--->
+
+    <!---<footer--->
+
+    <footer class="area-color">
+      <!---pagination---->
+      <div class="page uni-padding">
+        <button type="button" onclick="backwardBtn()" name="button" class="btn"><i
+            class="fa-solid fa-arrow-left"></i>&nbsp;&nbsp;back</button>
+        <ul id="page_no">
+          <li id="page_no_1" class="page-link current" onclick="currentpage()" value="1">01</li>
+          <li id="page_no_2" class="page-link" onclick="currentpage()" value="2">02</li>
+          <li id="page_no_3" class="page-link" onclick="currentpage()" value="3">03</li>
+        </ul>
+        <button type="button" onclick="forwardBtn()" name="button" class="btn">Next&nbsp;&nbsp;<i
+            class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      <!---link--->
+
+      <div class="">
+        <div class="f-link">
+          <ul>
+            <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a></li>
+          </ul>
+          <ul class="help-link">
+            <div class="help-link01">
+              <li><a href="/pages/Site-Disclaimer.html">Site Disclaimer</a></li>
+              <li><a href="/pages/contact.html">Report Broken links</a></li>
+            </div>
+            <div class="help-link02">
+              <li><a href="/pages/contact.html">Request</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">DMCA</a></li>
+              <li><a href="#">content</a></li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!--script--->
+
+    <script src="https://kit.fontawesome.com/c285d7f716.js" crossorigin="anonymous"></script>
+    <script src="../javascript/javascript.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
