@@ -94,11 +94,8 @@ span {
     border: 2px solid white;
 }
 
-.video{
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.screenshot{
+    color: #ffffff;
 }
 
 .video video{
