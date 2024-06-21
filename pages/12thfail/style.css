@@ -95,10 +95,10 @@ span {
 }
 
 .video{
-    overflow: hidden;
+    /*overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .video video{

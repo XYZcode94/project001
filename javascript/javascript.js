@@ -64,6 +64,7 @@ function handleEnterKey(event) {
     filter();
   }
 }
+
 /*
 function performSearch() {
   const searchText = document.getElementById("searchInput").value;
@@ -86,3 +87,5 @@ function myFunction2() {
   let change2 = document.getElementById("option_a3");
   window.location.replace("http://www.w3schools.com"); // back to home page //
 }
+
+
