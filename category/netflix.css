@@ -1,0 +1,15 @@
+.classic{
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    color: white;
+    box-shadow: 0 0 20px #8e44ad, 0 0 40px #8e44ad;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.container{
+    box-shadow: 0 0 10px #00ffd0, 0 0 10px #00d02e;
+}
